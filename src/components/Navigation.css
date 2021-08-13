@@ -1,0 +1,22 @@
+.nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 80px;
+  height: 70px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav .nav__home,
+.nav .nav__about {
+  text-decoration: none;
+  color: azure;
+}
